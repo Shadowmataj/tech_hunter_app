@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { axios_api } from "config";
+import { axios_api } from "../../../config";
 
 import {
     Card,
