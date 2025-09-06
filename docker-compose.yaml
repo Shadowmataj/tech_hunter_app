@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build:
+      context: .  # path to your Vite project
+    ports:
+      - "80:80"          # host:container (serve on localhost:3000)
+    restart: always
