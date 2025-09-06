@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { api } from "config";
+import { axios_api } from "config";
 
 import {
     Card,
@@ -11,7 +11,7 @@ import {
 } from "@material-tailwind/react";
 
 const retrieveProducts = async () => {
-    const { data } = await api.get(
+    const { data } = await axios_api.get(
         `/products/amazon`,{
         params: {
             per_page: 100
