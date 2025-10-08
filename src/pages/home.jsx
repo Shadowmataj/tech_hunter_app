@@ -22,17 +22,17 @@ export function Home() {
             <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
               <Carousel transition={{ duration: 2 }} autoplay loop className="rounded-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+                  src="/img/1.svg"
                   alt="image 1"
                   className="h-full w-full object-cover"
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+                  src="/img/2.svg"
                   alt="image 2"
                   className="h-full w-full object-cover"
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+                  src="/img/3.svg"
                   alt="image 3"
                   className="h-full w-full object-cover"
                 />
