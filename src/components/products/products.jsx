@@ -9,7 +9,7 @@ import {
     CardHeader,
     Typography,
 } from "@material-tailwind/react";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function Products() {
 
@@ -194,13 +194,15 @@ function Products() {
                                     </div>
                                 </CardBody>
                                 <CardFooter className="pt-0">
-                                    <Button
-                                        ripple={false}
-                                        fullWidth={true}
-                                        className="bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                                    >
-                                        Add to Cart
-                                    </Button>
+                                    <a href={product.url} target="_blank" rel="noopener noreferrer" className="w-full">
+                                        <Button
+                                            ripple={false}
+                                            fullWidth={true}
+                                            className="bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
+                                        >
+                                            Ir al artículo
+                                        </Button>
+                                    </a>
                                 </CardFooter>
                             </Card>
                         ))
