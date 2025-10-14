@@ -3,5 +3,8 @@ services:
     build:
       context: .  # path to your Vite project
     ports:
-      - "80:80"          # host:container (serve on localhost:3000)
+      - "80:80" # host:container (serve on localhost:80)
+      - "443:443" # host:container (serve on localhost:443)
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt:ro # mount certs
     restart: always

@@ -178,9 +178,9 @@ function Products() {
                             <Card className="w-64 flex grow-0 justify-items-stretch">
                                 <CardHeader shadow={false} floated={false} className="h-full">
                                     <img
-                                        src={product.images[0]}
+                                        src={product.image}
                                         alt="card-image"
-                                        className="h-full w-full object-contain"
+                                        className="w-full max-w-46 h-full max-h-64 object-contain"
                                     />
                                 </CardHeader>
                                 <CardBody className="h-56">

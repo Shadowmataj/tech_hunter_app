@@ -10,7 +10,7 @@ build
 
 # Environment variables
 .env
-.env.*.local
+.env*
 
 # System / editor files
 .DS_Store
